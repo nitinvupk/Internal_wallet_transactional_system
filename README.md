@@ -19,26 +19,26 @@ Things you may want to cover:
   * This is an API application (Internal wallet transactional system)
   * The basic idea of this API application to handle many transactions b/w user and stock
   * Login, Add money, withdraw money, Buy stock, Sale stock
-# Login endpoint
+# Login Endpoint
   * http://localhost:3000/login
-  * pass params{ email: user1@gmail.com password: password123 }
-  * respose will be auth token that help you to perform transactions
-# Add Money API
+  * params{ email: user1@gmail.com password: password123 }
+  * respose will be auth_token that help you to perform transactions
+# Add Money Endpoint
   * http://localhost:3000/wallets/deposit
   * params{ auth_token: from above step, amount: 10000}
-# Withdraw Money
+# Withdraw Money Endpoint
   * http://localhost:3000/wallets/withdraw
   *  params{ auth_token: from above step, amount: 1000}
-# Check Balence
+# Check Balence Endpoint
   * http://localhost:3000/wallets/check_balance
   * params{ auth_token: from above step}
-# Find Available Stock
+# Find Available Stock Endpoint
   * http://localhost:3000/stocks/available_stocks
   * params{ auth_token: from above step}
-# Purchase Stock
+# Purchase Stock Endpoint
   * http://localhost:3000/stocks/purchase_stock
   * params{ auth_token: from above step, stock_identifier: 'NAUKRIEQN', quantity: 1}
-# Sale Stock
+# Sale Stock Endpoint
   * http://localhost:3000/stocks/purchase_stock
   * params{ auth_token: from above step, stock_identifier: 'NAUKRIEQN', quantity: 1}
   
