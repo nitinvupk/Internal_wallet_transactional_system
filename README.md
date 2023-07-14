@@ -17,7 +17,7 @@ Things you may want to cover:
   * Rails server
 # About project
   * This is an API application (Internal wallet transactional system)
-  * The basic idea of ths API application to handle many transactions b/w user and stock
+  * The basic idea of this API application to handle many transactions b/w user and stock
   * Login, Add money, withdraw money, Buy stock, Sale stock
 # Login endpoint
   * http://localhost:3000/login
