@@ -54,7 +54,6 @@ ActiveRecord::Schema.define(version: 2023_07_14_072312) do
     t.integer "balance", default: 0
     t.integer "user_id"
     t.integer "stock_id"
-    t.integer "team_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
